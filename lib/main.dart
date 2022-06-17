@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:puzzle_kids/pages/home_page.dart';
+import 'package:puzzle_kids/pages/level_page.dart';
 import 'package:puzzle_kids/pages/second_page.dart';
 import 'package:puzzle_kids/pages/up_page.dart';
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomePage(),
         '/second': (context) => const SecondPage(),
+        '/level': (context) => const LevelPage(),
         '/upload': (context) => const TableroPage(),
       },
     );

@@ -43,5 +43,9 @@ flutter:
     - assets/buttons/next_button.png
     - assets/buttons/add_image.png
     - assets/icons/iconv1.png
+    - assets/images/background_image.png
+    - assets/buttons/easy_button.png
+    - assets/buttons/medium_button.png
+    - assets/buttons/hard_button.png
 
   
