@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:puzzle_kids/pages/home_page.dart';
 import 'package:puzzle_kids/pages/second_page.dart';
 import 'package:puzzle_kids/pages/up_page.dart';
 
 void main() {
-  /*WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations(
-    [DeviceOrientation.landscapeLeft]);*/
+    [DeviceOrientation.portraitUp]);
   runApp(const MyApp());
 }
 
