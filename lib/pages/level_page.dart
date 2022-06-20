@@ -32,8 +32,7 @@ class LevelPage extends StatelessWidget {
                       fit: BoxFit.cover
                     )
                   ),
-                  child: FlatButton(
-                    padding: const EdgeInsets.all(0.0),
+                  child: TextButton(
                     onPressed: () {
                       Navigator.push(context,MaterialPageRoute(
                         builder: (BuildContext context) => const TableroPage(),
@@ -56,8 +55,7 @@ class LevelPage extends StatelessWidget {
                       fit: BoxFit.cover
                     )
                   ),
-                  child: FlatButton(
-                    padding: const EdgeInsets.all(0.0),
+                  child: TextButton(
                     onPressed: () {
                       debugPrint('Button cliked');
                     },
@@ -78,8 +76,7 @@ class LevelPage extends StatelessWidget {
                       fit: BoxFit.cover
                     )
                   ),
-                  child: FlatButton(
-                    padding: const EdgeInsets.all(0.0),
+                  child: TextButton(
                     onPressed: () {
                       debugPrint('Button cliked');
                     },

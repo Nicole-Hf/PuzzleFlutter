@@ -32,8 +32,7 @@ class SecondPage extends StatelessWidget {
                       fit: BoxFit.cover
                     )
                   ),
-                  child: FlatButton(
-                    padding: const EdgeInsets.all(0.0),
+                  child: TextButton(
                     onPressed: () {
                       Navigator.push(context,MaterialPageRoute(
                         builder: (BuildContext context) => const LevelPage(),
@@ -56,8 +55,7 @@ class SecondPage extends StatelessWidget {
                       fit: BoxFit.cover
                     )
                   ),
-                  child: FlatButton(
-                    padding: const EdgeInsets.all(0.0),
+                  child: TextButton(
                     onPressed: () {
                       debugPrint('Button cliked');
                     },

@@ -84,13 +84,13 @@ class _TableroPageState extends State<TableroPage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      RaisedButton(
+                      ElevatedButton(
                         child: const Text("Clear"),
                         onPressed: () {
                           jigKey.currentState!.resetJigsaw();
                         }
                       ),
-                      RaisedButton(
+                      ElevatedButton(
                         child: const Text("Generate"),
                         onPressed: () async {
                           await jigKey.currentState!.generaJigsawCropImage();
@@ -114,8 +114,7 @@ class _TableroPageState extends State<TableroPage> {
               fit: BoxFit.cover
             )
           ),
-          child: FlatButton(
-            padding: const EdgeInsets.all(0.0),
+          child: TextButton(
               onPressed: () {
                 showModalBottomSheet(
                   context: context, 

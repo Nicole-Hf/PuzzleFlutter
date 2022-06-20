@@ -115,7 +115,7 @@ class _UploadPageState extends State<UploadPage> {
                 )
               ),
               // ignore: deprecated_member_use
-              child: FlatButton(
+              child: TextButton(
                 padding: const EdgeInsets.all(0.0),
                   onPressed: () {
                     showModalBottomSheet(

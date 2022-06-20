@@ -1,5 +1,4 @@
-// ignore_for_file: unnecessary_this
-import 'dart:async';
+/*import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -117,7 +116,7 @@ class _UploadImagePageState extends State<UploadImagePage> {
                 )
               ),
               // ignore: deprecated_member_use
-              child: FlatButton(
+              child: TextButton(
                 padding: const EdgeInsets.all(0.0),
                 onPressed: () {
                   showModalBottomSheet(
@@ -161,7 +160,7 @@ class _UploadImagePageState extends State<UploadImagePage> {
                 )
               ),
               // ignore: deprecated_member_use
-              child: FlatButton(
+              child: TextButton(
                 padding: const EdgeInsets.all(0.0),
                 onPressed: () {
                   imageUpload = File(_image!.path);
@@ -177,3 +176,4 @@ class _UploadImagePageState extends State<UploadImagePage> {
     );
   }
 }
+*/
